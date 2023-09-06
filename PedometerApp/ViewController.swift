@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     private var numberOfSteps: Int = 0
     private var distanceWalked: Double = 0
     private var pace: Double = 0
+    
     private let pedometer = CMPedometer()
 
     override func viewDidLoad() {
