@@ -71,8 +71,8 @@ class ViewController: UIViewController {
     func updateLabel() {
         pedoDataLabel.text = """
             Steps taken today: \(numberOfSteps)
-            Distance Walked: \(distanceWalked) km
-            Average Pace: \(pace) secs/m
+            Distance Walked: \(String(format:"%.3f",distanceWalked)) km
+            Average Pace: \(String(format:"%.3f",pace)) secs/m
             """
     }
         
